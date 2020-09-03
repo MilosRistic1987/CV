@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from '../component/NavBar'
+import { FaLinkedin} from "react-icons/fa"
 
 const Home = () => {
-    const heading = [{ title: <h1>Welcome to my <span>CV</span> </h1>, id: 0 }, { title:<h1>My name is <span>Milos</span> Ristic</h1> , id: 1 }, { title: <h1>Have a nice time</h1>, id: 2 }];
+    const heading = [{ title: <h1>Welcome to my <span>CV</span> </h1>, id: 0 }, { title:<h1>I'm <span>Milos</span> Ristic</h1> , id: 1 }, { title: <h1>Have a nice time</h1>, id: 2 }];
     const [title, setTitle] = useState(heading[0])
     useEffect(() => {
         const interval = setInterval(() => {
@@ -31,7 +32,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="btnWrapp">
-                        <button className='mainBtn'>Follow</button>
+                       <a target="_blank" href='https://www.linkedin.com/in/milos-ristic-410b95195/'><button className='mainBtn'>Follow <FaLinkedin/></button></a> 
                     </div>
                 </div>
             </div>
