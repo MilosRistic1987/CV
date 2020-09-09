@@ -7,7 +7,7 @@ const Slideshow = ({photos}) => {
         <div className="slide-container">
             <Zoom scale={0.4}>
           {
-            photos.map((each, index) => <img key={index} style={{width: "100%"}} src={require("../utilites/projectsImg"+each)} />)
+            photos.map((each, index) => <img key={index} style={{width: "100%"}} alt='sliderPhotos' src={require("../utilites/projectsImg"+each)} />)
           }
         </Zoom>
             

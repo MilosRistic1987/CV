@@ -1,14 +1,12 @@
 import React from 'react'
-import NavBar from '../component/NavBar'
 import InterestCard from './InterestCard'
 import interestData from '../data/interests.json'
+import PageCounter from '../component/PageCounter'
 
 
 const Interest = () => {
     return (
         <div className='interestWrapp'>
-             <div className='borderWrapp'>
-                 <NavBar/>
                  <div className="interestContentWrapp">
                      <div className="interestCardList">
                          {interestData.map(el=><InterestCard cardData={el} key={el.id}/>)}
@@ -19,11 +17,10 @@ const Interest = () => {
                              </div>
                          </div>
                      </div>
-                     <div></div>
+                     <div className='pageCounter pageCounterRest'>
+                         <PageCounter/>
+                     </div>
                  </div>
-
-             </div>
-            
         </div>
     )
 }

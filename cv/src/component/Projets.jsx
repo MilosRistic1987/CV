@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
-import NavBar from '../component/NavBar';
 import ProjetsModal from '../component/ProjetsModal'
+import PageCounter from '../component/PageCounter'
 
 
 const Projects = () => {
@@ -9,14 +9,12 @@ const Projects = () => {
         setModalOpen(true)
     }
     return (
-        
-         
         <div className='projectWrapp'>
                <ProjetsModal isModalOpen={isModalOpen} setModalOpen={setModalOpen}/>
-            <div className='borderWrapp'>
-                <NavBar />
                 <div className="projetsInfoWrapp">
-                    <div></div>
+                    <div className='pageCounter pageCounterProject'>
+                        <PageCounter/>
+                    </div>
                     <div className='projectInfo'>
                         <div>
                         <h1>Welcome To <span>Projects</span> room</h1>
@@ -24,7 +22,6 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
       
     )

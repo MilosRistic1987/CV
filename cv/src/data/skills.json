@@ -1,0 +1,37 @@
+[
+    {
+        "id": "61",
+        "name": "HTML5",
+        "progress": "90%"
+    },
+    {
+        "id": "62",
+        "name": "CSS3",
+        "progress": "75%"
+    },
+    {
+        "id": "63",
+        "name": "JavaScript",
+        "progress": "65%"
+    },
+    {
+        "id": "64",
+        "name": "SaSS",
+        "progress": "51%"
+    },
+    {
+        "id": "65",
+        "name": "React JS",
+        "progress": "58%"
+    },
+    {
+        "id": "66",
+        "name": "Adobe Photoshop",
+        "progress": "70%"
+    },
+    {
+        "id": "67",
+        "name": "Adobe Illustrator",
+        "progress": "65%"
+    }
+]
