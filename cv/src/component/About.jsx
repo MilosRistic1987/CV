@@ -16,7 +16,7 @@ const About = () => {
                     <FaRegAddressCard title='Visit my Profile Card' onClick={() => handleAboutModal()} />
                 </div>
                 <div className='pageCounter pageCounterRest'>
-                    <PageCounter />
+                    <PageCounter pageNumber={"04"}/>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ const Projects = () => {
                <ProjetsModal isModalOpen={isModalOpen} setModalOpen={setModalOpen}/>
                 <div className="projetsInfoWrapp">
                     <div className='pageCounter pageCounterProject'>
-                        <PageCounter/>
+                        <PageCounter pageNumber={"02"}/>
                     </div>
                     <div className='projectInfo'>
                         <div>

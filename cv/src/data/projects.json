@@ -1,56 +1,154 @@
-
-
-
 [
     {
-        "name":"World Countries" ,
-        "id":"1" ,
-        "desc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo" ,
-        "link":"https://github.com/MilosRistic1987/Zavrsni-Projekat",
-        "photoUrl": ["/WorldCountries/wcHome.jpg","/WorldCountries/wcLogin.jpg","/WorldCountries/wcRegister.jpg","/WorldCountries/wcMap.jpg","/WorldCountries/wcCountries.jpg","/WorldCountries/wcComparation.jpg","/WorldCountries/wcMycountry.jpg"]
+        "name": "World Countries",
+        "id": "1",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/MilosRistic1987/Zavrsni-Projekat",
+        "photoUrl": [
+            "/WorldCountries/wcHome.jpg",
+            "/WorldCountries/wcLogin.jpg",
+            "/WorldCountries/wcRegister.jpg",
+            "/WorldCountries/wcMap.jpg",
+            "/WorldCountries/wcCountries.jpg",
+            "/WorldCountries/wcComparation.jpg",
+            "/WorldCountries/wcMycountry.jpg"
+        ],
+        "category": "React JS"
     },
     {
         "name": "Hungry Herceg",
-        "id":"2" ,
-        "desc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo" ,
-        "link":"https://github.com/ITbootcampSvea/Hungry-Herceg",
-        "photoUrl":["/HHPhotos/hhHome.jpg","/HHPhotos/hhLogin.jpg","/HHPhotos/hhNewPoll.jpg","/HHPhotos/hhOrder.jpg","/HHPhotos/hhProfile.jpg","/HHPhotos/hhSettings.jpg"]
+        "id": "2",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/ITbootcampSvea/Hungry-Herceg",
+        "photoUrl": [
+            "/HHPhotos/hhHome.jpg",
+            "/HHPhotos/hhLogin.jpg",
+            "/HHPhotos/hhNewPoll.jpg",
+            "/HHPhotos/hhOrder.jpg",
+            "/HHPhotos/hhProfile.jpg",
+            "/HHPhotos/hhSettings.jpg"
+        ],
+        "category": "React JS"
     },
     {
-        "name":"Meal Deal" ,
-        "id":"3" ,
-        "desc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo" ,
-        "link":"https://github.com/MilosRistic1987/MealDeal" ,
-        "photoUrl":["/MealDeal/mdHome.jpg","/MealDeal/mdLogin.jpg","/MealDeal/mdOrder.jpg"]
+        "name": "Meal Deal",
+        "id": "3",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/MilosRistic1987/MealDeal",
+        "photoUrl": [
+            "/MealDeal/mdHome.jpg",
+            "/MealDeal/mdLogin.jpg",
+            "/MealDeal/mdOrder.jpg"
+        ],
+        "category": "React JS"
     },
     {
-        "name":"Movie Base" ,
+        "name": "Movie Base",
         "id": "4",
-        "desc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo" ,
-        "link":"https://github.com/MilosRistic1987/MovieBase" ,
-        "photoUrl":["/MovieBase/mbHome1.jpg","/MovieBase/mbHome2.jpg","/MovieBase/mbHome3.jpg","/MovieBase/mbAuthor.jpg"]
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/MilosRistic1987/MovieBase",
+        "photoUrl": [
+            "/MovieBase/mbHome1.jpg",
+            "/MovieBase/mbHome2.jpg",
+            "/MovieBase/mbHome3.jpg",
+            "/MovieBase/mbAuthor.jpg"
+        ],
+        "category": "React JS"
     },
-
     {
-        "name":"Statistic" ,
+        "name": "Statistics",
         "id": "5",
-        "desc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo" ,
-        "link":"https://github.com/MilosRistic1987/VueStatistics" ,
-        "photoUrl":["/Statistics/statHome.jpg","/Statistics/statHome1.jpg","/Statistics/statStat.jpg"]
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/MilosRistic1987/VueStatistics",
+        "photoUrl": [
+            "/Statistics/statHome.jpg",
+            "/Statistics/statHome1.jpg",
+            "/Statistics/statStat.jpg"
+        ],
+        "category": "React JS"
     },
-
     {
-        "name":"Idea Record" ,
+        "name": "Idea Record",
         "id": "6",
-        "desc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo" ,
-        "link":"https://github.com/MilosRistic1987/IdeaRecord" ,
-        "photoUrl":["/IdeaRecord/idHome.jpg","/IdeaRecord/idModal.jpg"]
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/MilosRistic1987/IdeaRecord",
+        "photoUrl": [
+            "/IdeaRecord/idHome.jpg",
+            "/IdeaRecord/idModal.jpg"
+        ],
+        "category": "React JS"
     },
     {
-        "name":"Hotel Resort" ,
+        "name": "Hotel Resort",
         "id": "7",
-        "desc":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo" ,
-        "link":"https://github.com/MilosRistic1987/IdeaRecord" ,
-        "photoUrl":["/HotelResort/hrHome.jpg","/HotelResort/hrHome.jpg","/HotelResort/hrHome1.jpg","/HotelResort/hrHome2.jpg","/HotelResort/hrRooms.jpg","/HotelResort/hrErrors.jpg"]
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/MilosRistic1987/IdeaRecord",
+        "photoUrl": [
+            "/HotelResort/hrHome.jpg",
+            "/HotelResort/hrHome.jpg",
+            "/HotelResort/hrHome1.jpg",
+            "/HotelResort/hrHome2.jpg",
+            "/HotelResort/hrRooms.jpg",
+            "/HotelResort/hrErrors.jpg"
+        ],
+        "category": "React JS"
+    },
+    {
+        "name": "The First CV",
+        "id": "8",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/MilosRistic1987/portfolio-project",
+        "photoUrl": [
+            "/Html5Css3/oldCVHome.jpg",
+            "/Html5Css3/oldCVAbout.jpg",
+            "/Html5Css3/oldCVInterest.jpg",
+            "/Html5Css3/oldCVInterest1.jpg",
+            "/Html5Css3/oldCVMedia.jpg"
+        ],
+        "category": "Html5/Css3"
+    },
+    {
+        "name": "Employers Catalouge",
+        "id": "9",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "",
+        "photoUrl": [
+            "/Adobe/EmployersCatalouge/catalougePespective.jpg",
+            "/Adobe/EmployersCatalouge/catalougeFrontPage.jpg",
+            "/Adobe/EmployersCatalouge/catalougePage1.jpg",
+            "/Adobe/EmployersCatalouge/catalougePage2.jpg",
+            "/Adobe/EmployersCatalouge/catalougePage3.jpg",
+            "/Adobe/EmployersCatalouge/catalougePage4.jpg",
+            "/Adobe/EmployersCatalouge/catalougeBackPage.jpg"
+        ],
+        "category": "Adobe"
+    },
+    {
+        "name": "Uro Ginea",
+        "id": "10",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "",
+        "photoUrl": [
+            "/Adobe/UroGinea/cover1.jpg",
+            "/Adobe/UroGinea/cover.jpg",
+            "/Adobe/UroGinea/bussniesCard.jpg",
+            "/Adobe/UroGinea/bussniesCard1.jpg"
+        ],
+        "category": "Adobe"
+    },
+    {
+        "name": "Small Projects",
+        "id": "11",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "",
+        "photoUrl": [
+            "/Adobe/SmallProjects/profile.jpg",
+            "/Adobe/SmallProjects/illustratorLogo.jpg",
+            "/Adobe/SmallProjects/foodLogo.png",
+            "/Adobe/SmallProjects/busniessCard.jpg",
+            "/Adobe/SmallProjects/destkopWall.jpg",
+            "/Adobe/SmallProjects/destkopWall1.jpg"
+        ],
+        "category": "Adobe"
     }
 ]
