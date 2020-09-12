@@ -12,9 +12,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0E0E0E;
+  background: #0e0e0e;
   position: relative;
+  
 }
+
 
 /*------------------------------------------------------------------------------------------------NaVBar----------------------------------------------------------------------*/
 
@@ -79,6 +81,8 @@ body {
 .navLinks a:hover {
   border-bottom: 0.1rem solid rgb(180, 48, 48);
 }
+/*-------------------------------------------------------------------------------------NavBarBurger--------------------------------------------------------------------*/
+
 
 /*----------------------------------------------------------------------------------------HOME-----------------------------------------------------------------------*/
 
@@ -93,6 +97,14 @@ body {
   border: 0.1rem solid rgb(180, 48, 48);
   width: 96%;
   height: 94%;
+
+}
+
+#page-wrap{
+  transform: translate3d(-100px,0px,-600px) rotateY(20deg);
+  transform-style: preserve-3d;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
 }
 
 .contentWrapp {
@@ -157,7 +169,6 @@ h1 span {
   color: antiquewhite;
   cursor: pointer;
   font-size: 5.2rem;
-  box-shadow: 0.15rem 0.15rem 0 rgb(17, 17, 17);
   transition: all 1s ease-in-out;
 }
 
@@ -329,6 +340,19 @@ a:hover {
 
 .modalNavLinks {
   border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background: linear-gradient(to top,  #363636,#494949);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.modalNavLinksSelected{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   background: linear-gradient(to top, #050505, #363636);
   width: 100%;
   height: 100%;
@@ -338,18 +362,12 @@ a:hover {
   text-align: center;
 }
 
-.modalNavLinks h1:visited {
-  color: antiquewhite;
-}
 
-.modalNavLinks h1:hover {
-  color: antiquewhite;
-}
 
 .modalNavLinks h1 {
   cursor: pointer;
-  color: #4b4a4a;
-  transition: all 1s ease-in-out;
+  color: #222222;
+ 
 }
 
 .modalDisplayGrid {
@@ -455,7 +473,7 @@ a:hover {
 
 .interestContentWrapp {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 7fr 1fr;
   height: 100%;
   width: 100%;
 }
@@ -474,7 +492,7 @@ a:hover {
   justify-items: center;
   display: grid;
   grid-auto-rows: 1fr;
-  grid-template: 'history geography title title ' ' art science  mythology   .' 'boardGames rockMusic sport travel';
+  grid-template: 'history geography title title title  .  .  .  .  . ' ' art science  mythology   .  .  .  .  .  .  . ' 'boardGames rockMusic sport travel  .  .  .  .  .  . ';
 }
 
 .interestHeading {

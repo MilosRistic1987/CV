@@ -131,6 +131,7 @@
         "photoUrl": [
             "/Adobe/UroGinea/cover1.jpg",
             "/Adobe/UroGinea/cover.jpg",
+            "/Adobe/UroGinea/cover2.jpg",
             "/Adobe/UroGinea/bussniesCard.jpg",
             "/Adobe/UroGinea/bussniesCard1.jpg"
         ],
@@ -144,11 +145,33 @@
         "photoUrl": [
             "/Adobe/SmallProjects/profile.jpg",
             "/Adobe/SmallProjects/illustratorLogo.jpg",
-            "/Adobe/SmallProjects/foodLogo.png",
+            "/Adobe/SmallProjects/foodLogo.jpg",
+            "/Adobe/SmallProjects/hungryHercegLogo.jpg",
+            "/Adobe/SmallProjects/impellerLogo.jpg",
+            "/Adobe/SmallProjects/impellerLogo1.jpg",
             "/Adobe/SmallProjects/busniessCard.jpg",
+            "/Adobe/SmallProjects/busniessCard1.jpg",
             "/Adobe/SmallProjects/destkopWall.jpg",
             "/Adobe/SmallProjects/destkopWall1.jpg"
         ],
         "category": "Adobe"
+    },
+        {
+        "name": "Bootcamper",
+        "id": "12",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+        "link": "https://github.com/ITbootcampSvea/Bootcamper",
+        "photoUrl": [
+            "/Bootcamper/bootHome.jpg",
+            "/Bootcamper/bootStudents.jpg",
+            "/Bootcamper/bootStudents1.jpg",
+            "/Bootcamper/bootProfile.jpg",
+            "/Bootcamper/bootProfile1.jpg",
+            "/Bootcamper/bootAssignments.jpg",
+            "/Bootcamper/bootWorkbook.jpg",
+            "/Bootcamper/bootAboutUs.jpg"
+
+        ],
+        "category": "React JS"
     }
 ]

@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-const ModalNav = ({selectedProjetcsCategory, setSelectedProjetcsCategory}) => {
+const ModalNav = ({ selectedProjetcsCategory, setSelectedProjetcsCategory }) => {
+    const initialNavNames = [{ name: "All", key: "1", className: 'modalNavLinks' }, { name: "React JS", key: "2", className: 'modalNavLinks' }, { name: "Adobe", key: "3", className: 'modalNavLinks' }, { name: "Html5/Css3", key: "1", className: 'modalNavLinks' }]
 
-    const handleCategory=(category)=>{
+    const [navNames, setNavNames] = useState(initialNavNames)
+
+    useEffect(() => {
+        const updatedNavNames = initialNavNames.map(el => el.name === selectedProjetcsCategory ? { ...el, className: `modalNavLinksSelected` } : el)
+        setNavNames(updatedNavNames)
+    }, [selectedProjetcsCategory])
+
+    const handleCategory = (category) => {
         setSelectedProjetcsCategory(category)
     }
+
     return (
         <div className='modalNav'>
-            <div className='modalNavLinks'><h1 onClick={()=>handleCategory('All')}>All</h1></div>
-            <div className='modalNavLinks'><h1 onClick={()=>handleCategory('React JS')}>React JS</h1></div>
-            <div className='modalNavLinks'><h1 onClick={()=>handleCategory('Adobe')}>Adobe</h1></div>
-            <div className='modalNavLinks'><h1 onClick={()=>handleCategory('Html5/Css3')}>Html5/Css3</h1></div>
+            {navNames.map(el => <div className={el.className}><h1 onClick={() => handleCategory(el.name)}>{el.name}</h1></div>)}
             <div><h1></h1></div>
         </div>
     )

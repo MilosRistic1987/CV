@@ -13,7 +13,7 @@ const Interest = () => {
                          <div className="interestHeading">
                              <div>
                              <h1>In  <span>free</span> time ...</h1>
-                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Recusandae id quia numquam inventore nam, veritatis, eos vero consectetur officiis!<br></br> Voluptatum nulla nemo, ex ipsam nesciunt voluptate molestiae, tempore magnam quibusdam?</p>
+                             <p>Interests and Hobbies are momentous part of my life.<br />Everyday with cup of coffee I spend quality time reading or watching interesting stuff <br></br> About geography, history, art, design...</p>
                              </div>
                          </div>
                      </div>

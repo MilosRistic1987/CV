@@ -5,6 +5,9 @@ import PageCounter from '../component/PageCounter'
 const Home = () => {
     const heading = [ { title: <h1>I'm <span>Milos</span> Ristic</h1>, id: 0 },{ title: <h1>Welcome to my <span>CV</span> </h1>, id: 1 }, { title: <h1>Have a nice time</h1>, id: 2 }];
     const [title, setTitle] = useState(heading[0])
+
+ 
+    
     useEffect(() => {
         const interval = setInterval(() => {
             let id;
@@ -21,13 +24,13 @@ const Home = () => {
         }
     }, [title])
     return (
-        <div className='homeWrap'>
+        <div className='homeWrap' >
             <div className="contentWrapp">
                 <div className="headingWrapp">
                     <a className='linkedinIco' target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/milos-ristic-410b95195/'><FaLinkedin title='Visit my Linkedin profile' /></a>
                     <div className='animationWrapp'>
                         {title.title}
-                        <p>Non progredi est regredi !<br /> Si fueris Romae, Romano vivito more, si fueris alibi, vivito sicut ibi !<br></br> Unusquisque suae fortunae faber es !</p>
+                        <p>Non progredi est regredi!<br /> Si fueris Romae, Romano vivito more, si fueris alibi, vivito sicut ibi!<br></br> Unusquisque suae fortunae faber es!</p>
                     </div>
                 </div>
                 <div className='pageCounter pageCounterRest'>
