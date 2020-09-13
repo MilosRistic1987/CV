@@ -12,32 +12,18 @@ function App() {
 
  
 
-  var isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
-};
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+console.log(isMobile)
 
   return (
-   <div className='appWrapper' >
-    <div className='borderWrapp' >
+   <div className='appWrapper'  >
+    <div className='borderWrapp' id='borderWrapp' >
    <Router>
- <NavBar/>
+     <div className='navBarWrapp'>
+ {!isMobile?<NavBar/>:<NavBarBurger pageWrapId={"page-wrap"} outerContainerId={"borderWrapp"}/>}
+ </div>
+ <div id="page-wrap">
      <Switch>
        <Route exact path='/home' component={Home} />
        <Route exact path='/projects' component={Projects}  />
@@ -45,6 +31,7 @@ function App() {
        <Route exact path='/about' component={About} />
        <Redirect to="/home"/>
      </Switch>
+     </div>
    </Router>
  </div>
  </div>

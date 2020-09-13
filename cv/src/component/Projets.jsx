@@ -1,13 +1,11 @@
 import React,{useState} from 'react';
 import ProjetsModal from '../component/ProjetsModal'
 import PageCounter from '../component/PageCounter'
-import { useEffect } from 'react';
 
 
 const Projects = () => {
     const [isModalOpen, setModalOpen] = useState(false);
 
-  
     const handleModalOpen=()=>{
         setModalOpen(true)
     }
@@ -25,8 +23,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-        </div>
-      
+        </div> 
     )
 }
 
