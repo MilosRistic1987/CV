@@ -4,6 +4,9 @@ body {
   padding: 0;
   font-size: 62.5%;
   font-family: 'Barlow Condensed', sans-serif;
+  background: #0e0e0e;
+  width: 100%;
+  height: 100vh;
 }
 
 .appWrapper {
@@ -13,8 +16,16 @@ body {
   justify-content: center;
   align-items: center;
   background: #0e0e0e;
-  position: relative;
-  
+  position: absolute;
+  overflow: hidden;
+}
+
+.AbsoluteDiv{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0e0e0e;
+  perspective: 1500px;
 }
 
 .borderWrapp {
@@ -23,11 +34,23 @@ body {
   height: 94%;
   background:#1b1b1b;
   display: grid;
-  grid-template-rows: 1fr 8fr;
+  grid-template-rows: 1fr 7fr;
+  overflow: hidden;
 }
+
+
+
+.animatedDiv{
+  height: 100%;
+  transition: all 0.5s cubic-bezier(0,.9,1,1);
+  overflow: hidden;
+}
+
 
 #page-wrap{
   height: 100%;
+  width: 100%;
+  background: #0e0e0e;
 }
 
 
@@ -184,6 +207,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background-position: center;
   background-size: cover;
   height: 100%;
+  width: 100%;
 }
 
 .contentWrapp {
@@ -291,6 +315,7 @@ h1 span {
   background-position: center;
   background-size: cover;
   height: 100%;
+  width: 100%;
 }
 
 .projectCard {
@@ -548,6 +573,7 @@ a:hover {
   background-size: cover;
   height: 100%;
   z-index: 1;
+  width: 100%;
 }
 
 .interestContentWrapp {
@@ -626,6 +652,7 @@ a:hover {
   background-size: cover;
   height: 100%;
   z-index: 1;
+  width: 100%;
 }
 
 .aboutContentWrapp {
@@ -905,9 +932,7 @@ letter-spacing: 0.2rem;
     border-radius: 0.2rem;
     font-size: 3.6rem;
   }
-  .animationWrapp {
-    transform: translate(-5%, -55.5%);
-  }
+ 
   .defaultPageNumber {
     padding: 0.35rem 0.7rem;
     font-size: 0.7rem;
@@ -930,6 +955,10 @@ letter-spacing: 0.2rem;
   }
   .interestCard {
     width: 8rem;
+  }
+
+  .projectCard {
+    grid-template-rows: 4fr 0.5fr 0.5fr 1fr 0.5fr;
   }
   .interestPhoto img {
     height: 7rem;
@@ -955,7 +984,7 @@ letter-spacing: 0.2rem;
   }
   
   .progress {
-    height: 0.7rem;
+    height: 0.5rem;
     padding: 0.1rem;
   }
   
@@ -982,7 +1011,7 @@ letter-spacing: 0.2rem;
   }
 
   .profileCard {
-    width: 50%;
+    width: 45%;
     height: 90%;
   }
   a {
@@ -1068,10 +1097,6 @@ letter-spacing: 0.2rem;
     padding: 1.05rem;
   }
 
-  .imgDataWrapp div img {
-    width: 7.9rem;
-    height: 7.9rem;
-   }
 
   .progressBar {
     margin: 0.52rem 0;
@@ -1106,7 +1131,7 @@ letter-spacing: 0.2rem;
   }
 
   .profileCard {
-    width: 60%;
+    width: 80%;
     height: 90%;
   }
 

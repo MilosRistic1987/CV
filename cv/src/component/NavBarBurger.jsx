@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import { scaleRotate as Menu } from 'react-burger-menu'
+import { pushRotate as Menu } from 'react-burger-menu'
 import logo from '../utilites/img/logo1.svg'
 
 const NavBarBurger = (props) => {
