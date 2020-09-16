@@ -1,17 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaRegAddressCard } from "react-icons/fa"
+import AboutModal from '../component/AboutModal'
 import PageCounter from '../component/PageCounter'
-import AbsoluteDiv from './AbsoluteDiv'
 
-const About = ({setAboutModalOpen}) => {
-  
+const About = () => {
+    const [aboutModalOpen, setAboutModalOpen] = useState(false)
     const handleAboutModal = () => {
         setAboutModalOpen(true)
     }
-
     return (
-        <AbsoluteDiv>
         <div className='aboutWrapp'>
+            <AboutModal aboutModalOpen={aboutModalOpen} setAboutModalOpen={setAboutModalOpen} />
             <div className="aboutContentWrapp">
                 <div className='aboutContent'>
                     <FaRegAddressCard title='Visit my Profile Card' onClick={() => handleAboutModal()} />
@@ -21,7 +20,6 @@ const About = ({setAboutModalOpen}) => {
                 </div>
             </div>
         </div>
-        </AbsoluteDiv>
     )
 }
 

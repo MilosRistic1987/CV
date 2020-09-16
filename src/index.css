@@ -4,9 +4,6 @@ body {
   padding: 0;
   font-size: 62.5%;
   font-family: 'Barlow Condensed', sans-serif;
-  background: #0e0e0e;
-  width: 100%;
-  height: 100vh;
 }
 
 .appWrapper {
@@ -16,16 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   background: #0e0e0e;
-  position: absolute;
-  overflow: hidden;
-}
-
-.AbsoluteDiv{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #0e0e0e;
-  perspective: 1500px;
+  position: relative;
+  
 }
 
 .borderWrapp {
@@ -34,23 +23,11 @@ body {
   height: 94%;
   background:#1b1b1b;
   display: grid;
-  grid-template-rows: 1fr 7fr;
-  overflow: hidden;
+  grid-template-rows: 1fr 8fr;
 }
-
-
-
-.animatedDiv{
-  height: 100%;
-  transition: all 0.5s cubic-bezier(0,.9,1,1);
-  overflow: hidden;
-}
-
 
 #page-wrap{
   height: 100%;
-  width: 100%;
-  background: #0e0e0e;
 }
 
 
@@ -207,7 +184,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background-position: center;
   background-size: cover;
   height: 100%;
-  width: 100%;
 }
 
 .contentWrapp {
@@ -315,7 +291,6 @@ h1 span {
   background-position: center;
   background-size: cover;
   height: 100%;
-  width: 100%;
 }
 
 .projectCard {
@@ -573,7 +548,6 @@ a:hover {
   background-size: cover;
   height: 100%;
   z-index: 1;
-  width: 100%;
 }
 
 .interestContentWrapp {
@@ -652,7 +626,6 @@ a:hover {
   background-size: cover;
   height: 100%;
   z-index: 1;
-  width: 100%;
 }
 
 .aboutContentWrapp {
@@ -932,7 +905,9 @@ letter-spacing: 0.2rem;
     border-radius: 0.2rem;
     font-size: 3.6rem;
   }
- 
+  .animationWrapp {
+    transform: translate(-5%, -55.5%);
+  }
   .defaultPageNumber {
     padding: 0.35rem 0.7rem;
     font-size: 0.7rem;
@@ -955,10 +930,6 @@ letter-spacing: 0.2rem;
   }
   .interestCard {
     width: 8rem;
-  }
-
-  .projectCard {
-    grid-template-rows: 4fr 0.5fr 0.5fr 1fr 0.5fr;
   }
   .interestPhoto img {
     height: 7rem;
@@ -984,7 +955,7 @@ letter-spacing: 0.2rem;
   }
   
   .progress {
-    height: 0.5rem;
+    height: 0.7rem;
     padding: 0.1rem;
   }
   
@@ -1011,7 +982,7 @@ letter-spacing: 0.2rem;
   }
 
   .profileCard {
-    width: 45%;
+    width: 50%;
     height: 90%;
   }
   a {
@@ -1097,6 +1068,10 @@ letter-spacing: 0.2rem;
     padding: 1.05rem;
   }
 
+  .imgDataWrapp div img {
+    width: 7.9rem;
+    height: 7.9rem;
+   }
 
   .progressBar {
     margin: 0.52rem 0;
@@ -1131,7 +1106,7 @@ letter-spacing: 0.2rem;
   }
 
   .profileCard {
-    width: 80%;
+    width: 60%;
     height: 90%;
   }
 
@@ -1147,124 +1122,4 @@ letter-spacing: 0.2rem;
   .paginationIcon {
     font-size: 1.05rem;
   }
-}
-
-@media only screen and (max-width: 600px) {
-
-  .projetsList {
-    grid-template-columns: 1fr;
-  }
-
-  .projectCard {
-    grid-template-rows: 3fr 0.5fr 0.5fr 1fr 0.5fr;
-  }
-
-  .modalNav {
- 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 0.25rem 0 0 0.25rem;
-    letter-spacing: 0.1rem;
-    grid-gap: 0.2rem;
-  }
-  h1{
-    font-size: 0.6rem;
-  }
-
-  
-  .bm-overlay {
-    transform: translate3d(-40px, 20px, 0px) rotateY(35deg);
-  }
-
-  .bm-menu-wrap {
-    height: 100%;
-    width: 50%!important;
-  }
-
-  .NavBarBurger{
-    background: #0E0E0E;
-    z-index: 0;
-  }
-
-  .bm-item:last-child {
-    padding: 5rem 1.5rem;
-}
-.burgerLogo {
-    width: 5rem;
-    height: 5rem;
-    cursor: pointer;
-}
-
-.bm-burger-button {
-  position: fixed;
-  width: 30px;
-  height: 24px;
- right: 2rem;
-  top: 3rem;
-}
-
-.interestCardList {
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template:
-      'history . title title title . . . . . '
-      'art geography  . . . . . . .  . '
-      'science mythology  sport  . . . . . .  . '
-      'boardGames rockMusic  travel . . . . . .  . ';
-}
-
-.interestCard {
-  width: 5.5rem;
-}
-
-.interestTitle h1 {
-  font-size: 0.2rem;
-}
-
-.slide-container {
-  width: 95%;
-  height: 50%;
-}
-
-.zoom-wrapper{
-  height: 20rem;
-}
-.profileCard {
-  width: 95%;
-  height: 90%;
-}
-
-.profileCard h1 {
-  letter-spacing: 0.15rem;
-  font-size: 0.55rem;
-}
-
-.imgDataWrapp div img {
-  width: 8.5rem;
-  height: 8.5rem;
-}
-
-.sliderModalCloseBtn {
-  font-size: 1.2rem;
-  padding: 1rem;
-}
-
-.animationWrapp {
-  transform: translate(40%, -80%);
-}
-
-.headingWrapp {
-  padding: 1.54rem;
-}
-.aboutContent {
-  padding: 1.54rem;
-}
-
-.mainBtn {
-  padding: 0.24rem 0.35rem;
-  font-size: 0.7rem;
-}
- 
-.interestPhoto img {
-  height: 5.5rem;
-}
-
 }
