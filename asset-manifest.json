@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MilosRistic1987.github.io/static/css/main.ead30078.chunk.css",
-    "main.js": "/MilosRistic1987.github.io/static/js/main.5d520476.chunk.js",
-    "main.js.map": "/MilosRistic1987.github.io/static/js/main.5d520476.chunk.js.map",
+    "main.css": "/MilosRistic1987.github.io/static/css/main.6e10449d.chunk.css",
+    "main.js": "/MilosRistic1987.github.io/static/js/main.f99af18c.chunk.js",
+    "main.js.map": "/MilosRistic1987.github.io/static/js/main.f99af18c.chunk.js.map",
     "runtime-main.js": "/MilosRistic1987.github.io/static/js/runtime-main.6b6329ee.js",
     "runtime-main.js.map": "/MilosRistic1987.github.io/static/js/runtime-main.6b6329ee.js.map",
     "static/css/2.69507427.chunk.css": "/MilosRistic1987.github.io/static/css/2.69507427.chunk.css",
     "static/js/2.4edf7599.chunk.js": "/MilosRistic1987.github.io/static/js/2.4edf7599.chunk.js",
     "static/js/2.4edf7599.chunk.js.map": "/MilosRistic1987.github.io/static/js/2.4edf7599.chunk.js.map",
     "index.html": "/MilosRistic1987.github.io/index.html",
-    "precache-manifest.33ef8efecf5cf5fa935060f3fa809664.js": "/MilosRistic1987.github.io/precache-manifest.33ef8efecf5cf5fa935060f3fa809664.js",
+    "precache-manifest.be3994dd456033bae9a3441d3631707c.js": "/MilosRistic1987.github.io/precache-manifest.be3994dd456033bae9a3441d3631707c.js",
     "service-worker.js": "/MilosRistic1987.github.io/service-worker.js",
     "static/css/2.69507427.chunk.css.map": "/MilosRistic1987.github.io/static/css/2.69507427.chunk.css.map",
-    "static/css/main.ead30078.chunk.css.map": "/MilosRistic1987.github.io/static/css/main.ead30078.chunk.css.map",
+    "static/css/main.6e10449d.chunk.css.map": "/MilosRistic1987.github.io/static/css/main.6e10449d.chunk.css.map",
     "static/js/2.4edf7599.chunk.js.LICENSE.txt": "/MilosRistic1987.github.io/static/js/2.4edf7599.chunk.js.LICENSE.txt",
     "static/media/index.css": "/MilosRistic1987.github.io/static/media/projectBg.6667b951.jpg",
     "static/media/art.png": "/MilosRistic1987.github.io/static/media/art.a0b84816.png",
@@ -96,7 +96,7 @@
     "static/js/runtime-main.6b6329ee.js",
     "static/css/2.69507427.chunk.css",
     "static/js/2.4edf7599.chunk.js",
-    "static/css/main.ead30078.chunk.css",
-    "static/js/main.5d520476.chunk.js"
+    "static/css/main.6e10449d.chunk.css",
+    "static/js/main.f99af18c.chunk.js"
   ]
 }

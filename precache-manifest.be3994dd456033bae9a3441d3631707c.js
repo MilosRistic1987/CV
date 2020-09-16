@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b9735d926eeb86c017609a4ff94129f",
+    "revision": "2fd003a3aa69517bdec6f0a3d16302e2",
     "url": "/MilosRistic1987.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MilosRistic1987.github.io/static/css/2.69507427.chunk.css"
   },
   {
-    "revision": "eb1cfd685404f4388b5a",
-    "url": "/MilosRistic1987.github.io/static/css/main.ead30078.chunk.css"
+    "revision": "8af91561a77095d3d3ef",
+    "url": "/MilosRistic1987.github.io/static/css/main.6e10449d.chunk.css"
   },
   {
     "revision": "e6551982290909d602c5",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MilosRistic1987.github.io/static/js/2.4edf7599.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb1cfd685404f4388b5a",
-    "url": "/MilosRistic1987.github.io/static/js/main.5d520476.chunk.js"
+    "revision": "8af91561a77095d3d3ef",
+    "url": "/MilosRistic1987.github.io/static/js/main.f99af18c.chunk.js"
   },
   {
     "revision": "08a031b802809f86c5ae",
