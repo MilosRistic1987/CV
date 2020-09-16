@@ -4,9 +4,13 @@ import projectsData from "../data/projects.json";
 import ModalNav from "../component/ModalNav";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
-const ProjetsModal = ({ isModalOpen, setModalOpen }) => {
+const ProjetsModal = ({ isModalOpen, setModalOpen, isMobile }) => {
   const modalClassName = isModalOpen ? "modalDisplayGrid" : "modalDisplayNone";
   const [indexes, setIndexes] = useState({ startIndex: 0, endIndex: 3 });
+  const [mobileIndexes, setMobileIndexes] = useState({
+    startMobileIndex: 0,
+    endMobileIndex: 1,
+  });
   const [projectsCategory, setProjectsCategory] = useState(projectsData);
   const [selectedProjetcsCategory, setSelectedProjetcsCategory] = useState(
     "All"
@@ -27,17 +31,29 @@ const ProjetsModal = ({ isModalOpen, setModalOpen }) => {
 
   const handlePagination = (type) => {
     if (type === "next") {
-      setIndexes({
-        ...indexes,
-        startIndex: indexes.startIndex + 3,
-        endIndex: indexes.endIndex + 3,
-      });
+      isMobile
+        ? setMobileIndexes({
+            ...mobileIndexes,
+            startMobileIndex: mobileIndexes.startMobileIndex + 1,
+            endMobileIndex: mobileIndexes.endMobileIndex + 1,
+          })
+        : setIndexes({
+            ...indexes,
+            startIndex: indexes.startIndex + 3,
+            endIndex: indexes.endIndex + 3,
+          });
     } else {
-      setIndexes({
-        ...indexes,
-        startIndex: indexes.startIndex - 3,
-        endIndex: indexes.endIndex - 3,
-      });
+      isMobile
+      ? setMobileIndexes({
+          ...mobileIndexes,
+          startMobileIndex: mobileIndexes.startMobileIndex - 1,
+          endMobileIndex: mobileIndexes.endMobileIndex - 1,
+        })
+      : setIndexes({
+          ...indexes,
+          startIndex: indexes.startIndex - 3,
+          endIndex: indexes.endIndex - 3,
+        });
     }
   };
 
@@ -48,11 +64,11 @@ const ProjetsModal = ({ isModalOpen, setModalOpen }) => {
         setSelectedProjetcsCategory={setSelectedProjetcsCategory}
       />
       <div className="projetsList">
-        {projectsCategory
-          .slice(indexes.startIndex, indexes.endIndex)
+        { isMobile ? projectsCategory
+          .slice(mobileIndexes.startMobileIndex, mobileIndexes.endMobileIndex)
           .map((el) => (
             <ProjectCard cardData={el} key={el.id} />
-          ))}
+          )):projectsCategory.slice(indexes.startIndex, indexes.endIndex).map((el)=>(  <ProjectCard cardData={el} key={el.id} />))}
       </div>
       <div className="pagginationWrapp">
         <div>

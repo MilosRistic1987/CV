@@ -1148,3 +1148,123 @@ letter-spacing: 0.2rem;
     font-size: 1.05rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+
+  .projetsList {
+    grid-template-columns: 1fr;
+  }
+
+  .projectCard {
+    grid-template-rows: 3fr 0.5fr 0.5fr 1fr 0.5fr;
+  }
+
+  .modalNav {
+ 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0.25rem 0 0 0.25rem;
+    letter-spacing: 0.1rem;
+    grid-gap: 0.2rem;
+  }
+  h1{
+    font-size: 0.6rem;
+  }
+
+  
+  .bm-overlay {
+    transform: translate3d(-40px, 20px, 0px) rotateY(35deg);
+  }
+
+  .bm-menu-wrap {
+    height: 100%;
+    width: 50%!important;
+  }
+
+  .NavBarBurger{
+    background: #0E0E0E;
+    z-index: 0;
+  }
+
+  .bm-item:last-child {
+    padding: 5rem 1.5rem;
+}
+.burgerLogo {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 24px;
+ right: 2rem;
+  top: 3rem;
+}
+
+.interestCardList {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template:
+      'history . title title title . . . . . '
+      'art geography  . . . . . . .  . '
+      'science mythology  sport  . . . . . .  . '
+      'boardGames rockMusic  travel . . . . . .  . ';
+}
+
+.interestCard {
+  width: 5.5rem;
+}
+
+.interestTitle h1 {
+  font-size: 0.2rem;
+}
+
+.slide-container {
+  width: 95%;
+  height: 50%;
+}
+
+.zoom-wrapper{
+  height: 20rem;
+}
+.profileCard {
+  width: 95%;
+  height: 90%;
+}
+
+.profileCard h1 {
+  letter-spacing: 0.15rem;
+  font-size: 0.55rem;
+}
+
+.imgDataWrapp div img {
+  width: 8.5rem;
+  height: 8.5rem;
+}
+
+.sliderModalCloseBtn {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.animationWrapp {
+  transform: translate(40%, -80%);
+}
+
+.headingWrapp {
+  padding: 1.54rem;
+}
+.aboutContent {
+  padding: 1.54rem;
+}
+
+.mainBtn {
+  padding: 0.24rem 0.35rem;
+  font-size: 0.7rem;
+}
+ 
+.interestPhoto img {
+  height: 5.5rem;
+}
+
+}

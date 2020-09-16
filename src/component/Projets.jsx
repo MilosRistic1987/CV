@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ProjetsModal from "../component/ProjetsModal";
 import PageCounter from "../component/PageCounter";
 import AbsoluteDiv from "./AbsoluteDiv";
 

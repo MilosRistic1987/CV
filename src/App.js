@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="appWrapper">
-      <ProjetsModal isModalOpen={isModalOpen} setModalOpen={setModalOpen} />
+      <ProjetsModal isModalOpen={isModalOpen} setModalOpen={setModalOpen} isMobile={isMobile} />
       <AboutModal
         aboutModalOpen={aboutModalOpen}
         setAboutModalOpen={setAboutModalOpen}
@@ -58,7 +58,7 @@ function App() {
                 <Route
                   exact
                   path="/projects"
-                  component={() => <Projects setModalOpen={setModalOpen} />}
+                  component={() => <Projects setModalOpen={setModalOpen}  />}
                 />
                 <Route exact path="/interest" component={Interest} />
                 <Route
